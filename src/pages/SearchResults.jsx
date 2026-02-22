@@ -8,7 +8,7 @@ const SearchResults = () => {
     const [movies, setMovies] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    const API_KEY = import.meta.env.VITE_TMDB_KEY;
+    const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
     useEffect(() => {
         const fetchSearchResults = async () => {
