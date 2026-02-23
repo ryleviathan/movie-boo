@@ -19,8 +19,7 @@ const Navbar = () => {
                 <NavLink to="/">Movie Boo</NavLink>
             </div>
 
-            {/* This div groups Search and Links so they move to the right together */}
-            <div className="nav-links"> 
+            <div className="nav-wrapper"> 
                 <form className="search-container" onSubmit={handleSearch}>
                     <input
                         type="text"
